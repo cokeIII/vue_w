@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <w1/>
+    <w2/>
   </div>
 </template>
 
 <script>
-import w1 from "./components/w1.vue"
-// import w2 from "./components/w2.vue"
+// import w1 from "./components/w1.vue"
+import w2 from "./components/w2.vue"
 export default {
   name: "App",
   components: {
-    w1
+    w2
   },
   data() {
     return {
