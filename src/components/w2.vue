@@ -1,21 +1,16 @@
 <template>
-  <div id="app">
-    <w1/>
+  <div class="container">
+      <h1>w2</h1>
   </div>
 </template>
 
 <script>
-import w1 from "./components/w1.vue"
-// import w2 from "./components/w2.vue"
 export default {
   name: "App",
-  components: {
-    w1
-  },
+  components: {},
   data() {
     return {
-      message: "",
-      max: 20,
+      text: "test",
     };
   },
 };
