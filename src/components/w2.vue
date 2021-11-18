@@ -4,7 +4,9 @@
     <h1>Workshop #2 preview image</h1>
     <hr />
     <div class="row">
-      <div class="col-md-5"></div>
+      <div class="col-md-5">
+        <input type="file" class="form-control" @change="onFileChange">
+      </div>
     </div>
   </div>
 </template>
@@ -15,9 +17,15 @@ export default {
   components: {},
   data() {
     return {
-      text: "test",
+      image:"",
     };
   },
+  methods:{
+    onFileChange:function(e){
+      let file = e.target.files
+      console.log(file)
+    }
+  }
 };
 </script>
 
