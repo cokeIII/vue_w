@@ -1,22 +1,17 @@
 <template>
-  <div id="app">
-    <w3/>
+  <div class="container">
+    <div class="row">
+        <h1>W3</h1>
+    </div>
   </div>
 </template>
 
 <script>
-// import w1 from "./components/w1.vue"
-// import w2 from "./components/w2.vue"
-import w3 from "./components/w3.vue"
 export default {
   name: "App",
-  components: {
-    w3
-  },
+  components: {},
   data() {
-    return {
-
-    };
+    return {};
   },
 };
 </script>
