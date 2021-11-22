@@ -1,25 +1,14 @@
 <template>
   <div id="app">
-    <w3/>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <!-- <router-link to="/about">About</router-link> -->
+      <router-link to="/w1">w1</router-link>
+      <router-link to="/w2">w2</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-// import w1 from "./components/w1.vue"
-// import w2 from "./components/w2.vue"
-import w3 from "./components/w3.vue"
-export default {
-  name: "App",
-  components: {
-    w3
-  },
-  data() {
-    return {
-
-    };
-  },
-};
-</script>
 
 <style>
 #app {
@@ -28,6 +17,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
