@@ -8,6 +8,7 @@
       <router-link to="/w2">w2</router-link> |
       <router-link to="/w3">w3</router-link> |
       <router-link to="/multi">multi</router-link> |
+      <router-link to="/person">person</router-link> |
     </div>
     <router-view/>
   </div>
