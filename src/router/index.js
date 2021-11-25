@@ -3,7 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../components/home.vue'
 import w1 from '../components/w1.vue'
 import w2 from '../components/w2.vue'
-
+import w3 from '../components/w3.vue'
+import multi from '../components/multi.vue'
 Vue.use(VueRouter)
 
 const routes = [{
@@ -29,6 +30,16 @@ const routes = [{
         path: '/w2',
         name: 'w2',
         component: w2
+    },
+    {
+        path: '/w3',
+        name: 'w3',
+        component: w3
+    },
+    {
+        path: '/multi',
+        name: 'multi',
+        component: multi
     }
 ]
 

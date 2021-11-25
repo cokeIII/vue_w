@@ -5,7 +5,6 @@
       <div v-if="a == 1">a=1</div>
       <div v-else-if="a == 2">a=2</div>
       <div>{{ a }}</div>
-      <button @click="gotoHome()">gogo</button>
       <br />
       <button class="btn btn-primary" @click="plus">ok</button>
     </div>
@@ -24,10 +23,6 @@ export default {
   methods: {
     plus() {
       this.a++;
-    },
-    gotoHome() {
-      this.$router.push("/w1.vue");
-      console.log("w1")
     },
   },
 };
