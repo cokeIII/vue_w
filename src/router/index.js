@@ -6,6 +6,7 @@ import w2 from '../components/w2.vue'
 import w3 from '../components/w3.vue'
 import multi from '../components/multi.vue'
 import person from '../components/person.vue'
+import showUsers from '../components/showUsers.vue'
 Vue.use(VueRouter)
 
 const routes = [{
@@ -46,6 +47,11 @@ const routes = [{
         path: '/person',
         name: 'person',
         component: person
+    },
+    {
+        path: '/showUsers',
+        name: 'showUsers',
+        component: showUsers
     }
 ]
 

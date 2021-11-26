@@ -24,7 +24,7 @@ export default {
   components: {},
   data() {
     return {
-        no:0,
+      no: 0,
       person: [
         {
           name: "AAA",

@@ -9,6 +9,7 @@
       <router-link to="/w3">w3</router-link> |
       <router-link to="/multi">multi</router-link> |
       <router-link to="/person">person</router-link> |
+      <router-link to="/showUsers">users</router-link> |
     </div>
     <router-view/>
   </div>
